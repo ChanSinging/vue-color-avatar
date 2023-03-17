@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Vue Color Avatar</h1>
-
+<h2>Personal learning ！！！！</h2>
   <p>🧑‍🦱 A playful avatar generator 🧑‍🦳</p>
 
 [简体中文](./README-CN.md)
@@ -27,7 +27,6 @@ Features you might be interested in:
 - i18n
 - Generate multiple avatars in batch
 
-## Personal learning！！！！d
 
 ## Assets
 
