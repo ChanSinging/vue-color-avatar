@@ -48,6 +48,7 @@ const avatarRef = ref<VueColorAvatarRef['avatarRef']>()
 defineExpose({ avatarRef })
 
 function getWrapperShapeClassName() {
+  // return {"circle":false, "square":false, "diamond":true}
   return {
     [WrapperShape.Circle]:
       avatarOption.value.wrapperShape === WrapperShape.Circle,
@@ -55,6 +56,8 @@ function getWrapperShapeClassName() {
       avatarOption.value.wrapperShape === WrapperShape.Square,
     [WrapperShape.Squircle]:
       avatarOption.value.wrapperShape === WrapperShape.Squircle,
+    [WrapperShape.Diamond]:
+      avatarOption.value.wrapperShape === WrapperShape.Diamond,  
   }
 }
 
@@ -140,6 +143,10 @@ watchEffect(async () => {
   &.squircle {
     // TODO: Radius should adapt to the avatar size
     border-radius: 25px;
+  }
+
+  &.diamond {
+    border-radius: 105px;
   }
 
   .avatar-payload {

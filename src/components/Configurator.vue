@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion:
+ * @Author: chansinging
+ * @version:
+ * @Date: 2023-03-17 14:28:59
+ * @LastEditors: chansinging
+ * @LastEditTime: 2023-04-05 19:14:20
+-->
 <template>
   <PerfectScrollbar class="configurator-scroll">
     <div class="configurator">
@@ -54,7 +62,7 @@
           "
           class="color-picker"
           :open="s.widgetType === WidgetType.Face"
-        >
+        >脸蛋
           <summary class="color">{{ t('label.colors') }}</summary>
           <ul class="color-list">
             <li
@@ -263,6 +271,10 @@ function getWidgetColor(type: string) {
 
         &.squircle {
           border-radius: 20%;
+        }
+
+        &.diamond {
+          border-radius: 40%;
         }
 
         &.active {

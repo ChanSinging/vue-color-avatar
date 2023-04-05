@@ -36,6 +36,7 @@ export default {
     circle: 'Circle',
     square: 'Square',
     squircle: 'Squircle',
+    diamond: 'Diamond',
   },
   text: {
     codeModalTitle: 'Code',

@@ -36,6 +36,7 @@ export default {
     circle: '圆形',
     square: '方形',
     squircle: '方圆形',
+    diamond: '菱形',
   },
   text: {
     codeModalTitle: '配置代码',

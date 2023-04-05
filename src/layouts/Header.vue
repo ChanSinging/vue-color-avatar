@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion: 
+ * @Author: chansinging
+ * @version: 
+ * @Date: 2023-03-17 14:28:59
+ * @LastEditors: chansinging
+ * @LastEditTime: 2023-04-04 20:56:10
+-->
 <template>
   <header class="header">
     <Logo />
@@ -6,7 +14,7 @@
 
     <div class="header-right">
       <a
-        href="https://github.com/Codennnn/vue-color-avatar"
+        href="https://github.com/Chansinging/vue-color-avatar"
         target="_blank"
         rel="nofollow noopener noreferrer"
       >
